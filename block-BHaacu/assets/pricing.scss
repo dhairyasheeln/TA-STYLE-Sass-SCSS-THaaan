@@ -1,0 +1,58 @@
+
+.pricing{
+    text-align: center;
+    .sec-text{
+        padding:1rem 0;
+    }
+    .col-32{
+        border:1.5px solid $grey;
+        border-radius: 4px;
+        padding:2rem;
+    }
+}
+
+.package{
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+.cost{
+    font-size: 2.2rem;
+    font-weight: 900;
+    padding:1rem 0;
+}
+
+.features{
+    font-size: 1rem 0;
+    font-weight: 700;
+    padding:0.8rem;
+}
+
+.pricing{
+    li::before{
+        content:"-";
+    }
+    li{
+        font-size: 1rem 0;
+        padding:0.8rem;
+    }
+}
+
+.FAQ{
+    padding:1rem;
+    .col-48{
+        border:1px solid $grey;
+        border-radius: 4px;
+        padding:2rem 1rem;
+        margin-bottom: 2rem;
+    }
+    &-title{
+        font-size: 1rem;
+        font-weight:500;
+        padding-bottom: 1rem;
+    }
+    
+    &-text{
+        font-size: 1rem;
+        color:$grey;
+    }
+}
