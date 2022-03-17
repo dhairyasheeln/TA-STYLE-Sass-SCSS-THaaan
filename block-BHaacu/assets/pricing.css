@@ -1,0 +1,34 @@
+.pricing {
+  text-align: center;
+}
+
+.pricing .sec-text {
+  padding: 1rem 0;
+}
+
+.package {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.cost {
+  font-size: 2.2rem;
+  font-weight: 900;
+  padding: 1rem 0;
+}
+
+.features {
+  font-size: 1rem 0;
+  font-weight: 500;
+  padding: 0.8rem;
+}
+
+.pricing li::before {
+  content: "-";
+}
+
+.pricing li {
+  font-size: 1rem 0;
+  padding: 0.8rem;
+}
+/*# sourceMappingURL=pricing.css.map */
