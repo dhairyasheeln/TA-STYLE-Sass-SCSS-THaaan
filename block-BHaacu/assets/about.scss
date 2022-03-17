@@ -1,0 +1,49 @@
+.hero{
+    background-color: $primary;
+    .hero-box-about {
+        text-align: center;
+        color:$secondary;
+    }
+}
+
+.vision-box{
+    padding:20px 0;
+}
+
+.vision-icon{
+    font-size: 3rem;
+}
+
+.vision-title{
+    font-size:1.3rem;
+    margin-bottom: 10px;
+}
+
+.vision-text{
+    color:$grey;
+}
+
+.member{
+    text-align: center;
+    background-color: $secondary;
+    padding:20px 0;
+    &Name{
+        font-size: 1.5rem;
+        color:$black;
+        margin-bottom:10px;
+    }
+    &title{
+        font-size:1rem;
+        color:$primary;
+        text-align: center;
+    }
+}
+
+.team{
+    background-color: $light-grey;
+}
+
+.solution{
+    text-align: center;
+    background-color: $secondary;
+}

@@ -1,0 +1,246 @@
+.header-top{
+    background-color:$primary;
+    padding:10px 0;
+    color:$secondary;
+}
+
+.contact-links li, .social-links li{
+    margin-left: 20px;
+
+}
+
+.social-links a {
+    text-decoration: none;
+    color:$secondary;
+    font-size: 16px;
+}
+
+.header-bottom{
+    background-color:$tertiary;
+    color:$black;
+}
+
+.brand {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.brand span{
+    color: $primary;
+    margin-right:10px;
+}
+
+.header-bottom li{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-bottom a{
+    text-decoration: none;
+    color:$black;
+}
+
+.header-bottom li:hover{
+    background-color: $primary;
+}
+
+.page-links li a{
+    font-weight:700;
+    margin:0 20px;
+}
+
+.parent-menu {
+    position: relative;
+}
+
+.parent-menu:hover .submenu{
+    display: inline-block;
+}
+
+.submenu{
+	position: absolute;
+	background-color: aliceblue;
+	width:140px;
+	text-align: center;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	left:50%;
+	top:55px;
+	transform: translateX(-50%);
+	display: none;
+    z-index: 99;
+}
+
+
+/*Hero Section*/
+
+.hero{
+    width:100%;
+    position: relative;
+    
+}
+
+.hero-box{
+    position: absolute;
+    top:45%;
+    left:12%;
+}
+
+.heading{
+    font-size:3rem;
+    font-weight: 900;
+    margin-bottom: 1.4rem;
+}
+
+.hero-text{
+    font-size:1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.btn{
+    padding:10px 20px;
+    border-radius:20px;
+    display: inline-block;
+    text-decoration: none;
+    &-primary{
+        background-color:$primary;
+        color: $secondary;
+    }
+    &-secondary{
+        background-color:$secondary;
+        color:$primary;
+        border:1px solid $primary;
+        }
+    &-tertiary{
+        background-color:$primary;
+        color:$primary;
+        border:1px solid $secondary;
+    }
+}
+
+/*Services Section*/@at-root
+.col-33{
+    flex:0 1 32%;
+    border: 1px solid $grey;
+    border-radius: 10px;
+    padding: 20px 10px;
+    img,p,.btn{
+        margin-bottom: 20px;
+    }
+}
+.col{
+    &-50{
+    flex:0 1 50%;
+    }
+    &-48{
+        flex:0 1 48%;
+    }
+    &-68{
+        flex:0 1 68%;
+    }
+    &-28{
+        flex:0 1 28%;
+    }
+    &-15{
+        flex:0 1 15%;
+        img{
+            filter: grayscale(100%);
+        }
+    }
+    &-22{
+        flex:0 1 22%;
+    }
+    &-10{
+        flex:0 1 10%; 
+    }
+    &-85{
+        flex:0 1 85%;
+    }
+    &-35{
+        flex:0 1 35%
+    }
+    &-25{
+        flex:0 1 25%;
+    }
+    &-44{
+        flex:0 1 44%;
+    }
+    &-50{
+        flex:0 1 50%;
+    }
+    &-32{
+        flex:0 1 32%;
+    }
+}
+
+
+
+.section{
+    &-heading{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+    &-textOne{
+        font-size:1.1rem;
+        text-align: center;
+        color:$grey;
+        margin-bottom: 20px;
+    }
+    &-textTwo{
+        font-size: 0.8rem;
+        text-align: center;
+        color:$grey;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*Solution Section*/
+.solution{
+    background-color:$light-grey;
+}
+
+/*Quote*/
+
+.quote {
+    background-color: $primary;
+    h2,p,a{
+        color:$tertiary;
+    }
+}
+
+.client{
+    background-color: $light-grey;    
+}
+
+/*Footer*/@at-root
+.footer{
+    background-color: $dark-grey;
+    a{
+        text-decoration: none;
+        color:$light-grey;
+    }
+    li{
+        color: $light-grey;
+    }
+    .section-textOne{
+        text-align: left;
+    }
+}
+
+.footer-copyrights{
+    text-align: center;
+    background-color: $dark-grey;
+    span{
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+

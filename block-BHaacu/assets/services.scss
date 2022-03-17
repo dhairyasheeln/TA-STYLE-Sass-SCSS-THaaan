@@ -1,0 +1,67 @@
+.service-title{
+    font-size: 1.2rem;
+    color:$primary;
+}
+
+.service{
+
+.sec-heading{
+    margin:2rem 0;
+    text-align: left;
+}
+.sec-text{
+    text-align: left;
+}
+}
+.feature{
+    &-title{
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    &-image{
+        margin-bottom: 1rem;
+    }
+}
+
+.product .col-28{
+    padding:1rem 2rem;
+}
+
+.product hr{
+    border:none;
+    border: 0.7px solid $grey;
+}
+
+.feature{
+    &-row{
+        &-1{
+            margin-bottom: 2rem;
+        }
+        &-2{
+            margin-top: 2rem;
+        }
+    }
+}
+
+.deal{
+    background-color: $primary;
+    color:$secondary;
+    .best{
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    span{
+        font-size: 2.5rem;
+    }
+
+    p{
+        display: inline;
+    }
+
+    .btn-tertiary{
+        color:$secondary;
+    }
+}
+
+
